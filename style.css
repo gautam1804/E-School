@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus:ital@1&family=Joan&family=Philosopher&family=Playfair+Display&family=Rajdhani:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Rajdhani', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.nav-item a{
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+.sec-padding{
+    padding-bottom: 80px;
+}
+.fixed-top{
+    background: #F0FFF0;
+}
+.nav-item{
+    padding: 0px 5px;
+}
+.nav-btn{
+    padding: 10px 28px !important;
+    background-color: black;
+    color: #ffffff !important;
+    border: none;
+    border-radius: 33px;
+}
+
+.header-section{
+    height: 100vh;
+    background-color: cornsilk;
+}
+.header-details h6{
+    color: black;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+.header-details h1{
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 70px;
+    color: #000000;
+    margin-bottom: 19px;
+}
+.header-details h1 span{
+    color: #214bb5;
+}
+.header-details p{
+    font-size: 16px;
+    line-height: 36px;
+    color: #6C6B6B;
+    margin-bottom: 15px;
+}
+
+.get-btn{
+    padding: 12px 35px;
+    background-color: #21b0b5;
+    color: #ffffff;
+    border: none;
+    border-radius: 33px;
+    transition: all .3s;
+}
+.get-btn:hover{
+    background-color:black;
+}
+
+.cards-section{
+    margin-top: 40px;
+}
+.cards-inner{
+    padding: 50px 0px;
+    text-align: center;
+    background: #F8FFFB;
+    border-radius: 10px;
+    transition: all .4s;
+}
+.cards-inner:hover{
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
+.cards-inner img{
+    width: 65px;
+    height: 83px;
+}
+.cards-inner h5{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #413960;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.cards-inner p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #585859;
+    margin-bottom: 0;
+}
+
+.footer-section{
+    padding-top: 55px;
+    background: #282531;
+    color: #FFFFFF;
+}
+
+@media only screen and (max-width: 1024px) {
+    .header-section{
+        padding-top: 80px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .header-section {
+        height: 100%;
+        padding-bottom: 50px;
+        padding-top: 0;
+    }
+    .header-details {
+        padding-top: 120px;
+    }
+    .cards-inner{
+        margin-bottom: 20px;
+    }
+    
+    .nav-btn{
+        max-width: 20%;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .card-deck{
+        display: block !important;
+    }
+    .card{
+        margin-bottom: 30px !important;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .header-details h1 {
+        font-size: 44px;
+        line-height: 65px;
+        margin-bottom: 15px;
+    }
+
+}
